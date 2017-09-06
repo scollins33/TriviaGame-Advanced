@@ -1,0 +1,37 @@
+body {
+    background-image: url("../images/school.png");
+}
+
+p {
+    font-size: 20px;
+}
+
+.spacer-row {
+    padding: 30px;
+}
+
+.hide-this {
+    display: none;
+}
+
+.question-container {
+    padding: 15px;
+}
+
+.question {
+    font-weight: bold;
+}
+
+#quiz-container {
+    background-color: white;
+}
+
+#start-button {
+    width: 180px;
+    height: 60px;
+}
+
+#submit-button {
+    width: 180px;
+    height: 60px;
+}
