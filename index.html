@@ -34,9 +34,14 @@
 
                     <!-- Quiz body to contain questions and submit -->
                     <div id="quiz-body">
-                        <div id="timer">
 
+                        <!-- timer section -->
+                        <div id="timer" class="text-center">
+                            <h3>Time Remaining:
+                                <span id="time-remaining">60</span></h3>
                         </div>
+
+                        <!-- questions section -->
                         <div id="questions" class="text-center">
 
                             <div class="question-container">
@@ -45,10 +50,10 @@
                                     FINISHED FILES ARE THE RESULT OF YEARS OF SCIENTIFIC STUDY.
                                 </div>
                                 <div id="answers1">
-                                    <label class="radio-inline" for="q1-a1"><input type="radio" id="q1-a1" name="q1-a1-name">1</label>
-                                    <label class="radio-inline" for="q1-a2"><input type="radio" id="q1-a2" name="q1-a2-name">2</label>
-                                    <label class="radio-inline" for="q1-a3"><input type="radio" id="q1-a3" name="q1-a3-name">3</label>
-                                    <label class="radio-inline" for="q1-a4"><input type="radio" id="q1-a4" name="q1-a4-name">4</label>
+                                    <label class="radio-inline" for="q1-a1"><input type="radio" id="q1-a1" name="q1-answer" value="a">2</label>
+                                    <label class="radio-inline" for="q1-a2"><input type="radio" id="q1-a2" name="q1-answer" value="b">3</label>
+                                    <label class="radio-inline" for="q1-a3"><input type="radio" id="q1-a3" name="q1-answer" value="c">4</label>
+                                    <label class="radio-inline" for="q1-a4"><input type="radio" id="q1-a4" name="q1-answer" value="d">5</label>
                                 </div>
                             </div>
 
@@ -57,22 +62,22 @@
                                     John has two coins that add up to $0.55, one is not a nickel. What two coins does he have?
                                 </div>
                                 <div id="answers2">
-                                    <label class="radio-inline" for="q2-a1"><input type="radio" id="q2-a1" name="q2-a1-name">2x quarters</label>
-                                    <label class="radio-inline" for="q2-a2"><input type="radio" id="q2-a2" name="q2-a2-name">1x half-dollar, 1x nickel</label>
-                                    <label class="radio-inline" for="q2-a3"><input type="radio" id="q2-a3" name="q2-a3-name">55x pennies</label>
-                                    <label class="radio-inline" for="q2-a4"><input type="radio" id="q2-a4" name="q2-a4-name">None of the above</label>
+                                    <label class="radio-inline" for="q2-a1"><input type="radio" id="q2-a1" name="q2-answer" value="a">2x quarters</label>
+                                    <label class="radio-inline" for="q2-a2"><input type="radio" id="q2-a2" name="q2-answer" value="b">1x half-dollar, 1x nickel</label>
+                                    <label class="radio-inline" for="q2-a3"><input type="radio" id="q2-a3" name="q2-answer" value="c">55x pennies</label>
+                                    <label class="radio-inline" for="q2-a4"><input type="radio" id="q2-a4" name="q2-answer" value="d">None of the above</label>
                                 </div>
                             </div>
 
                             <div class="question-container">
                                 <div id="question3" class="question">
-                                    If there are 6 apples on a table and you take 4, how many apples do you have?
+                                    If there are 6 apples on a table and you take 4, how many apples are there?
                                 </div>
                                 <div id="answers3">
-                                    <label class="radio-inline" for="q3-a1"><input type="radio" id="q3-a1" name="q3-a1-name">2</label>
-                                    <label class="radio-inline" for="q3-a2"><input type="radio" id="q3-a2" name="q3-a2-name">4</label>
-                                    <label class="radio-inline" for="q3-a3"><input type="radio" id="q3-a3" name="q3-a3-name">6</label>
-                                    <label class="radio-inline" for="q3-a4"><input type="radio" id="q3-a4" name="q3-a4-name">10</label>
+                                    <label class="radio-inline" for="q3-a1"><input type="radio" id="q3-a1" name="q3-answer" value="a">2</label>
+                                    <label class="radio-inline" for="q3-a2"><input type="radio" id="q3-a2" name="q3-answer" value="b">4</label>
+                                    <label class="radio-inline" for="q3-a3"><input type="radio" id="q3-a3" name="q3-answer" value="c">6</label>
+                                    <label class="radio-inline" for="q3-a4"><input type="radio" id="q3-a4" name="q3-answer" value="d">10</label>
                                 </div>
                             </div>
 
@@ -81,16 +86,16 @@
                                     If there are 12 fish and half of them drown, how many are there?
                                 </div>
                                 <div id="answers4">
-                                    <label class="radio-inline" for="q4-a1"><input type="radio" id="q4-a1" name="q4-a1-name">12</label>
-                                    <label class="radio-inline" for="q4-a2"><input type="radio" id="q4-a2" name="q4-a2-name">6</label>
-                                    <label class="radio-inline" for="q4-a3"><input type="radio" id="q4-a3" name="q4-a3-name">2</label>
-                                    <label class="radio-inline" for="q4-a4"><input type="radio" id="q4-a4" name="q4-a4-name">0</label>
+                                    <label class="radio-inline" for="q4-a1"><input type="radio" id="q4-a1" name="q4-answer" value="a">12</label>
+                                    <label class="radio-inline" for="q4-a2"><input type="radio" id="q4-a2" name="q4-answer" value="b">6</label>
+                                    <label class="radio-inline" for="q4-a3"><input type="radio" id="q4-a3" name="q4-answer" value="c">2</label>
+                                    <label class="radio-inline" for="q4-a4"><input type="radio" id="q4-a4" name="q4-answer" value="d">0</label>
                                 </div>
                             </div>
 
-                            <!-- Quiz submit button -->
+                            <!-- quiz submit button -->
                             <div id="quiz-submit" class="text-center">
-                                <button id="submit-button" class="btn btn-lg btn-info">Submit!</button>
+                                <button id="submit-button" class="btn btn-lg btn-success">Submit!</button>
                             </div>
                         </div>
                     </div>
@@ -100,10 +105,17 @@
                         <h3 id="congrats">Congrats, you finished!</h3>
                         <h3 id="times-up">Times up! Here's your score.</h3>
                         <br>
-                        <p>Grade: <span id="score-grade">0%</span></p>
-                        <p>Correct Answers: <span id="score-correct">0</span></p>
-                        <p>Incorrect Answers: <span id="score-incorrect">0</span></p>
-                        <p>Unanswered: <span id="score-unanswered">0</span></p>
+                        <p>Grade:
+                            <span id="score-grade">0%</span></p>
+                        <p>Correct Answers:
+                            <span id="score-correct">0</span></p>
+                        <p>Incorrect Answers:
+                            <span id="score-incorrect">0</span></p>
+                        <p>Unanswered:
+                            <span id="score-unanswered">0</span></p>
+                        <div id="quiz-restart" class="text-center">
+                            <button id="restart-button" class="btn btn-lg btn-warning">Restart</button>
+                        </div>
                     </div>
 
                 </div>
@@ -114,10 +126,10 @@
 
     </div>
 
-    <script src="assets/javascript/game.js"></script>
     <script
             src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>
