@@ -120,9 +120,17 @@ var triviaGame = {
         this.incorrectAnswers = 0;
         this.unansweredQuestions = 0;
         this.overallGrade = 0;
+        this.winCondition = 'none';
 
+        $('#time-remaining').text(triviaGame.timeLeft);
+
+        $('input[name="q1-answer"]').prop('checked', false);
+        $('input[name="q2-answer"]').prop('checked', false);
+        $('input[name="q3-answer"]').prop('checked', false);
+        $('input[name="q4-answer"]').prop('checked', false);
+
+        $('#quiz-results').addClass('hide-this');
         $('#quiz-start').removeClass('hide-this');
-        this.setupGame();
     }
 };
 
