@@ -22,6 +22,12 @@ p {
     font-weight: bold;
 }
 
+.answer-button {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+}
+
 #quiz-container {
     background-color: white;
 }
